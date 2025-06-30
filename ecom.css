@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+  font-family: "Poppins", sans-serif;
+
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  
+}
+
+.link-nav{
+  display: flex;
+  column-gap: 20px;
+}
+.link-nav a{
+  text-decoration: none;
+  color:darkcyan;
+}
+.link-nav a:hover{
+  text-decoration: underline;
+  color: cadetblue;
+}
+.link-awesom{
+  display: none;
+}
+@media screen and (max-width:600px){
+  .link-awesom{
+  display: block;
+}
+  .link-nav a{
+    display: none;
+  }
+  .header-image{
+    display: none;
+  }
+.services-1{
+    display: none;
+}
+.services-2{
+  flex-direction: column;
+}
+
+}
+.sidelink-nav{
+  background-color:rgb(38, 57, 77);
+  width: 35%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -60%;
+  padding: 20px;
+  color: white;
+  transition: 1s;
+}
+.sideways-link{
+  margin-bottom: 20px;
+}
+
+.sideways-link a{
+  margin-bottom: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.sideways-link a:hover{
+ 
+  text-decoration: underline;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px;
+}
+.headerbutton{
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: black;
+  color:white;
+  cursor: pointer;
+}
+
+.services{
+  padding: 20px;
+}
+
+
+.services-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-2{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+
+}
+.services-2 div{
+  background-color:#f2f4f7;
+  border-radius: 5px;
+  padding: 10px;
+}
+.images{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.imagespicks{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.images-1{
+  position: relative;
+  flex-basis: 20%;
+  
+}
+.images-2{
+  position: relative;
+  flex-basis: 20%;
+}
+.images-1 button{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-top: 10px;
+  background-color:lightyellow;
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  border-radius: 10px;
+  border: none;
+}
+.images-2 button{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  margin-top: 10px;
+  background-color:lightyellow;
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  border-radius: 10px;
+  border: none;
+}
+.h2{
+  padding: 20px;
+
+}
+.newsletter{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ 
+}
+.newsletter button{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border:none;
+  border-radius: 10px;
+}
+.newsletter input{
+  width: 80vw;
+  padding: 11px;
+  margin-bottom: 10px;
+  border: solid black 3px;
+  
+}
+.footer{
+  background-color:rgb(30, 30, 40);
+  color: white;
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.collections{
+  margin-top: 20px;
+}
+.product-search{
+  width: 80%;
+  border:solid black 2px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: auto;
+}
+.product-search input{
+  border: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.product-search input:focus{
+  outline: none;
+ 
+}
+.searchbar{
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+
+}
+.search-products{
+  text-align: center;
+  flex-basis: 20%;
+}
+.search-products img{
+  border-radius: 10px;
+  
+}
+.contact{
+  background-color:rgb(2, 2, 31);
+  color: white;
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+  margin: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 20px;
+
+  
+}
+.details{
+  margin: 20px;
+}
+.details input{
+  background-color:white;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: none;
+}
+.details button{
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  width: 50px;
+  height: 30px;
+  margin-bottom: 10px;
+}
